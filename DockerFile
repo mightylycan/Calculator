@@ -1,0 +1,5 @@
+FROM openjdk
+COPY . /var/www/calculator
+WORKDIR /var/www/calculator
+RUN javac Calc.java
+CMD ["java","Calc"]
