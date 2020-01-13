@@ -30,7 +30,7 @@ public class Calc {
         System.out.print("Enter second number:");
         num2 = calc.nextDouble();
 
-        System.out.print("Enter an operator (+, -, *, /): ");
+        System.out.print("Enter the operator (+, -, *, /): ");
         char operator = calc.next().charAt(0);
 
         calc.close();
