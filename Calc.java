@@ -58,6 +58,8 @@ public class Calc {
              * +, -, * and /, then display an error message to user
              * 
              */
+
+            /*p */
             default:
                 System.out.printf("You have entered incorrect operator");
                 return;
