@@ -59,7 +59,7 @@ public class Calc {
              * 
              */
             default:
-                System.out.printf("You have entered wrong operator");
+                System.out.printf("You have entered incorrect operator");
                 return;
         }
 
